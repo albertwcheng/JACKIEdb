@@ -6,6 +6,9 @@ type bigBed 5 .
 filterByRange.score on
 filterByRange.score2 on
 filterByRange.score3 on
+filterLimits.score 0:100000
+filterLimits.score2 0:100000
+filterLimits.score3 0:100000
 filterLabel.score Value range to filter
 filterLabel.score Value2 range to filter
 filterLabel.score Value3 range to filter
