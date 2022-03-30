@@ -4,9 +4,10 @@ shortLabel filteringByRangeDefault
 longLabel Filter by range enabled with default score including all values
 visibility pack
 type bigBed 5 .
-filter.name 0
-filter.score 0:10
 filterByRange.score on
-filterLimits.score 0:10
+filterByRange.score2 on
+filterByRange.score3 on
 filterLabel.score Value range to filter
+filterLabel.score Value2 range to filter
+filterLabel.score Value3 range to filter
 bigDataUrl http://www.albertcheng.info/jackie_downloads/myBigBed.bb
