@@ -1,4 +1,3 @@
-
 track filteringByRangeAllValues
 shortLabel filteringByRangeDefault
 longLabel Filter by range enabled with default score including all values
