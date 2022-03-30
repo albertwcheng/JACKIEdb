@@ -2,7 +2,7 @@ track filteringByRangeAllValues
 shortLabel filteringByRangeDefault
 longLabel Filter by range enabled with default score including all values
 visibility pack
-type bigBed 5 .
+type bigBed 9 2
 filterByRange.score on
 filterByRange.score2 on
 filterByRange.score3 on
