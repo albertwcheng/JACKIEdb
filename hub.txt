@@ -4,4 +4,3 @@ longLabel Name up to 80 characters versus shortLabel limited to 17 characters
 genomesFile genomes.txt
 email myEmail@address
 descriptionUrl aboutMyHub.html 
-
