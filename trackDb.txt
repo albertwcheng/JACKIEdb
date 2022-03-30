@@ -10,4 +10,4 @@ filterByRange.score3 on
 filterLabel.score Value range to filter
 filterLabel.score Value2 range to filter
 filterLabel.score Value3 range to filter
-bigDataUrl http://www.albertcheng.info/jackie_downloads/myBigBed.bb
+bigDataUrl http://www.albertcheng.info/jackie_downloads/myBigBed2.bb
