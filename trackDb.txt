@@ -1,9 +1,9 @@
 track filteringByRangeAllValues
 shortLabel filteringByRangeDefault
 longLabel Filter by range enabled with default score including all values
-visibility pack
+visibility full
 type bigBed 9 +
-filterByRange.score on
+filterByRange.score off
 filterByRange.score2 on
 filterByRange.score3 on
 filterLimits.score 0:100000
