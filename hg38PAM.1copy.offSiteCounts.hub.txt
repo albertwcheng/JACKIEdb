@@ -16,18 +16,18 @@ filter.totalOffSites 0:100000000
 filter.n3mismatches 0:100000000
 filter.n2mismatches 0:100000000
 filter.n1mismatches 0:100000000
-filterByRange.n1mismatches on
-filterByRange.n2mismatches on
-filterByRange.n3mismatches on
 filterByRange.totalOffSites on
-filterLimits.n1mismatches 0:100000000
-filterLimits.n2mismatches 0:100000000
-filterLimits.n3mismatches 0:100000000
+filterByRange.n3mismatches on
+filterByRange.n2mismatches on
+filterByRange.n1mismatches on
 filterLimits.totalOffSites 0:100000000
-filterLabel.n1mismatches Number of 1-mismatch sites
-filterLabel.n2mismatches Number of 2-mismatch sites
-filterLabel.n3mismatches Number of 3-mismatch sites
+filterLimits.n3mismatches 0:100000000
+filterLimits.n2mismatches 0:100000000
+filterLimits.n1mismatches 0:100000000
 filterLabel.totalOffSites Total Number of 1,2,3-mismatch sites
+filterLabel.n3mismatches Number of 3-mismatch sites
+filterLabel.n2mismatches Number of 2-mismatch sites
+filterLabel.n1mismatches Number of 1-mismatch sites
 searchIndex spacerSeq
 searchIndex offSitecounts
 bigDataUrl http://www.albertcheng.info/jackie_downloads/hg38PAM.1copy.offSiteCounts.bb
