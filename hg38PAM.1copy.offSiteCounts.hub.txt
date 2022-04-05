@@ -1,0 +1,31 @@
+hub hg38PAM1CopyOffSiteCountsHub
+shortLabel hg38 1Copy OffSite Counts
+longLabel hg38 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
+useOneFile on
+email albert@cheng.bio
+descriptionUrl hg38PAM1CopyOffSiteCountsHub.html 
+
+genome hg38
+
+track hg38PAM1CopyOffSiteCounts
+shortLabel hg38PAM1CopyOffSiteCounts
+longLabel hg38 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
+visibility full
+type bigBed 9 +
+filter.n1mismatches 0:100000000
+filter.n2mismatches 0:100000000
+filter.n3mismatches 0:100000000
+filter.totalOffSites 0:100000000
+filterByRange.n1mismatches on
+filterByRange.n2mismatches on
+filterByRange.n3mismatches on
+filterByRange.totalOffSites on
+filterLimits.n1mismatches 0:100000000
+filterLimits.n2mismatches 0:100000000
+filterLimits.n3mismatches 0:100000000
+filterLimits.totalOffSites 0:100000000
+filterLabel.n1mismatches Number of 1-mismatch sites
+filterLabel.n2mismatches Number of 2-mismatch sites
+filterLabel.n3mismatches Number of 3-mismatch sites
+filterLabel.totalOffSites Total Number of 1,2,3-mismatch sites
+bigDataUrl http://www.albertcheng.info/jackie_downloads/hg38PAM.1copy.offSiteCounts.bb
