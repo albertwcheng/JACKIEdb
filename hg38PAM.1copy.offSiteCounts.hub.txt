@@ -29,5 +29,4 @@ filterLabel.n3mismatches Number of 3-mismatch sites
 filterLabel.n2mismatches Number of 2-mismatch sites
 filterLabel.n1mismatches Number of 1-mismatch sites
 searchIndex spacerSeq
-searchIndex offSitecounts
 bigDataUrl http://www.albertcheng.info/jackie_downloads/hg38PAM.1copy.offSiteCounts.bb
