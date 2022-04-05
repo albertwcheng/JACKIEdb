@@ -3,7 +3,7 @@ shortLabel hg38 1Copy OffSite Counts
 longLabel hg38 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
 useOneFile on
 email albert@cheng.bio
-descriptionUrl hg38PAM1CopyOffSiteCountsHub.html 
+descriptionUrl https://github.com/albertwcheng/testUCSC/blob/main/hg38PAM1CopyOffSiteCountsHub.html
 
 genome hg38
 
