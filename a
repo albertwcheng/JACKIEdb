@@ -1,0 +1,33 @@
+hub hg38PAM1CopyOffSiteCountsHub
+shortLabel hg38 1Copy OffSite Counts
+longLabel hg38 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
+useOneFile on
+email albert@cheng.bio
+descriptionUrl https://github.com/albertwcheng/testUCSC/blob/main/hg38PAM1CopyOffSiteCountsHub.html
+
+genome hg38
+
+track hg38PAM1CopyOffSiteCounts
+shortLabel hg38PAM1CopyOffSiteCounts
+longLabel hg38 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
+visibility full
+type bigBed 9 +
+filter.totalOffSites 0:100000000
+filter.n3mismatches 0:100000000
+filter.n2mismatches 0:100000000
+filter.n1mismatches 0:100000000
+filterByRange.totalOffSites on
+filterByRange.n3mismatches on
+filterByRange.n2mismatches on
+filterByRange.n1mismatches on
+filterLimits.totalOffSites 0:100000000
+filterLimits.n3mismatches 0:100000000
+filterLimits.n2mismatches 0:100000000
+filterLimits.n1mismatches 0:100000000
+filterLabel.totalOffSites Total Number of 1,2,3-mismatch sites
+filterLabel.n3mismatches Number of 3-mismatch sites
+filterLabel.n2mismatches Number of 2-mismatch sites
+filterLabel.n1mismatches Number of 1-mismatch sites
+searchIndex spacerSeq
+mouseOverField $spacerSeq $offSiteCounts
+bigDataUrl http://www.albertcheng.info/jackie_downloads/hg38PAM.1copy.offSiteCounts.bb
