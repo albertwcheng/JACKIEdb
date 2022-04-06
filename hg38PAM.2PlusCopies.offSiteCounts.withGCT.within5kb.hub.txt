@@ -11,7 +11,7 @@ track hg38PAM2PlusCopiesOffSiteCounts
 shortLabel hg38PAM2PlusCopiesOffSiteCounts
 longLabel hg38 CRISPR SpCas9 2+ copies sites with off-target counts up to 3 mismatches
 visibility full
-type bigBed 9 +
+type bigBed 12 +
 filter.totalOffSites 0:100000000
 filter.n3mismatches 0:100000000
 filter.n2mismatches 0:100000000
