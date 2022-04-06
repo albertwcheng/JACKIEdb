@@ -36,6 +36,5 @@ filterLabel.n2mismatches Number of 2-mismatch sites
 filterLabel.n1mismatches Number of 1-mismatch sites
 filterLabel.percentGC Percentage GC of Spacer Sequence
 filterLabel.longestTandemT longest run of T
-searchIndex spacerSeq
 mouseOverField $spacerSeq $offSiteCounts
 bigDataUrl http://www.albertcheng.info/jackie_downloads/hg38PAM.1copy.offSiteCounts.wGCT.bb
