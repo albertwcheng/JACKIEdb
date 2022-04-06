@@ -1,15 +1,15 @@
-hub hg38PAM1CopyOffSiteCountsHub
-shortLabel hg38 1Copy OffSite Counts
-longLabel hg38 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
+hub hg38PAM2PlusCopiesOffSiteCountsHub
+shortLabel hg38 2+ Copies OffSite Counts
+longLabel hg38 CRISPR SpCas9 2+ copies sites with off-target counts up to 3 mismatches
 useOneFile on
 email albert@cheng.bio
 descriptionUrl https://github.com/albertwcheng/testUCSC/blob/main/hg38PAM1CopyOffSiteCountsHub.html
 
 genome hg38
 
-track hg38PAM1CopyOffSiteCounts
-shortLabel hg38PAM1CopyOffSiteCounts
-longLabel hg38 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
+track hg38PAM2PlusCopiesOffSiteCounts
+shortLabel hg38PAM2PlusCopiesOffSiteCounts
+longLabel hg38 CRISPR SpCas9 2+ copies sites with off-target counts up to 3 mismatches
 visibility full
 type bigBed 9 +
 filter.totalOffSites 0:100000000
