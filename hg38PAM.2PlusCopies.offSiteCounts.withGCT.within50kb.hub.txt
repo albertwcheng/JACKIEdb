@@ -43,6 +43,6 @@ filterLabel.n1mismatches Number of 1-mismatch sites
 filterLabel.percentGC Percentage GC of Spacer Sequence
 filterLabel.longestTandemT longest run of T
 filterLabel.clusterSize  Size of gRNA cluster
-filterLabel.n0mismatches  Number of gRNA in cluster
+filterLabel.n0mismatches  Number of sites in cluster
 mouseOverField $spacerSeq $offSiteCounts
 bigDataUrl http://www.albertcheng.info/jackie_downloads/hg38PAM.2PlusCopy.offSiteCounts.wGCT.within50kb.bb
