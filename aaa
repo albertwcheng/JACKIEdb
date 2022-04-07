@@ -1,0 +1,48 @@
+hub mm10PAM2PlusCopiesOffSiteCountsHubWithin50kb
+shortLabel mm10 2+ Copies OffSite Counts <=50kb clusters
+longLabel mm10 CRISPR SpCas9 2+ copies sites with off-target counts up to 3 mismatches (<50kb clusters)
+useOneFile on
+email albert@cheng.bio
+descriptionUrl https://github.com/albertwcheng/testUCSC/blob/main/hg38PAM1CopyOffSiteCountsHub.html
+
+genome mm10
+
+track mm10PAM2PlusCopiesOffSiteCounts
+shortLabel mm10PAM2PlusCopiesOffSiteCounts
+longLabel mm10 CRISPR SpCas9 2+ copies sites with off-target counts up to 3 mismatches (<50kb clusters)
+visibility full
+type bigBed 12 +
+filter.totalOffSites 0:100000000
+filter.n3mismatches 0:100000000
+filter.n2mismatches 0:100000000
+filter.n1mismatches 0:100000000
+filter.percentGC  0:100
+filter.longestTandemT  0:20
+filter.clusterSize  0:100000000
+filter.n0mismatches  0:100000000
+filterByRange.totalOffSites on
+filterByRange.n3mismatches on
+filterByRange.n2mismatches on
+filterByRange.n1mismatches on
+filterByRange.percentGC on
+filterByRange.longestTandemT  on
+filterByRange.clusterSize  on
+filterByRange.n0mismatches  on
+filterLimits.totalOffSites 0:100000000
+filterLimits.n3mismatches 0:100000000
+filterLimits.n2mismatches 0:100000000
+filterLimits.n1mismatches 0:100000000
+filterLimits.percentGC 0:100
+filterLimits.longestTandemT  0:20
+filterLimits.clusterSize  0:100000000
+filterLimits.n0mismatches  0:100000000
+filterLabel.totalOffSites Total Number of 1,2,3-mismatch sites
+filterLabel.n3mismatches Number of 3-mismatch sites
+filterLabel.n2mismatches Number of 2-mismatch sites
+filterLabel.n1mismatches Number of 1-mismatch sites
+filterLabel.percentGC Percentage GC of Spacer Sequence
+filterLabel.longestTandemT longest run of T
+filterLabel.clusterSize  Size of gRNA cluster
+filterLabel.n0mismatches  Number of sites in cluster
+mouseOverField $spacerSeq $offSiteCounts
+bigDataUrl http://www.albertcheng.info/jackie_downloads/mm10PAM.2PlusCopy.offSiteCounts.wGCT.within50kb.bb
