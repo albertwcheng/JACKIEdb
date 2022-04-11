@@ -1,0 +1,24 @@
+hub hg38PAM1CopyNoOff3Hub
+shortLabel hg38 1Copy with no off-target up to 3 mismatches
+longLabel hg38 CRISPR SpCas9 1-copy sites with no off-target up to 3 mismatches
+useOneFile on
+email albert@cheng.bio
+descriptionUrl https://github.com/albertwcheng/testUCSC/blob/main/hg38PAM1CopyOffSiteCountsHub.html
+
+genome hg38
+
+track hg38PAM1CopyNoOff3
+shortLabel hg38PAM1CopyNoOff3
+longLabel hg38 CRISPR SpCas9 1-copy sites with no off-target up to 3 mismatches
+visibility full
+type bigBed 9 +
+filter.percentGC  0:100
+filter.longestTandemT  0:20
+filterByRange.percentGC on
+filterByRange.longestTandemT  on
+filterLimits.percentGC 0:100
+filterLimits.longestTandemT  0:20
+filterLabel.percentGC Percentage GC of Spacer Sequence
+filterLabel.longestTandemT longest run of T
+mouseOverField $spacerSeq $offSiteCounts
+bigDataUrl http://www.albertcheng.info/jackie_downloads/hg38PAM.1copy.offSiteCounts.wGCT.offp1000.bb
