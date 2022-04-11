@@ -1,0 +1,40 @@
+hub mm10PAM1CopyOffSiteCountsHub
+shortLabel mm10 1Copy OffSite Counts
+longLabel mm10 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
+useOneFile on
+email albert@cheng.bio
+descriptionUrl https://github.com/albertwcheng/testUCSC/blob/main/mm10PAM1CopyOffSiteCountsHub.html
+
+genome mm10
+
+track mm10PAM1CopyOffSiteCounts
+shortLabel mm10PAM1CopyOffSiteCounts
+longLabel mm10 CRISPR SpCas9 1-copy sites with off-target counts up to 3 mismatches
+visibility full
+type bigBed 9 +
+filter.totalOffSites 0:100000000
+filter.n3mismatches 0:100000000
+filter.n2mismatches 0:100000000
+filter.n1mismatches 0:100000000
+filter.percentGC  0:100
+filter.longestTandemT  0:20
+filterByRange.totalOffSites on
+filterByRange.n3mismatches on
+filterByRange.n2mismatches on
+filterByRange.n1mismatches on
+filterByRange.percentGC on
+filterByRange.longestTandemT  on
+filterLimits.totalOffSites 0:100000000
+filterLimits.n3mismatches 0:100000000
+filterLimits.n2mismatches 0:100000000
+filterLimits.n1mismatches 0:100000000
+filterLimits.percentGC 0:100
+filterLimits.longestTandemT  0:20
+filterLabel.totalOffSites Total Number of 1,2,3-mismatch sites
+filterLabel.n3mismatches Number of 3-mismatch sites
+filterLabel.n2mismatches Number of 2-mismatch sites
+filterLabel.n1mismatches Number of 1-mismatch sites
+filterLabel.percentGC Percentage GC of Spacer Sequence
+filterLabel.longestTandemT longest run of T
+mouseOverField $spacerSeq $offSiteCounts
+bigDataUrl http://www.albertcheng.info/jackie_downloads/mm10.1copy.offSiteCounts.wGCT.bb
