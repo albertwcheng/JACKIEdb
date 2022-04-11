@@ -37,4 +37,4 @@ filterLabel.n1mismatches Number of 1-mismatch sites
 filterLabel.percentGC Percentage GC of Spacer Sequence
 filterLabel.longestTandemT longest run of T
 mouseOverField $spacerSeq $offSiteCounts
-bigDataUrl http://www.albertcheng.info/jackie_downloads/mm10.1copy.offSiteCounts.wGCT.bb
+bigDataUrl http://www.albertcheng.info/jackie_downloads/mm10PAM.1copy.offSiteCounts.wGCT.bb
